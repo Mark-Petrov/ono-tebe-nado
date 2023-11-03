@@ -114,3 +114,90 @@
     text-transform: uppercase;
     border: 1px solid;
 }
+
+
+/* закончился блок cover */
+/* начался блок carts */
+
+.lots {
+    width: 1340px;
+    height: 579px;
+    box-sizing: border-box;
+    padding: 180px 50px 0 50px;
+}
+
+.lots__heading {
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.lots__card-list {
+    margin-top: 27px;
+    display: flex;
+    gap: 25px;
+}
+
+.lots__card-list-item {
+    width: 430px;
+    height: 450px;    
+}
+
+.card__content {    
+    box-sizing: border-box;
+    padding: 50px 40px 50px 40px;
+    width: 430px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_type_film {
+    background-image: url(/images/card-lot-01.jpg);
+    background-size:100% auto;
+}
+
+.card_type_book {
+    background-image: url(/images/card-lot-02.jpg);
+    background-size:100% auto;
+}
+
+.card_type_picture {
+    background-image: url(/images/card-lot-03.jpg);
+    background-size:100% auto;
+}
+
+.card__title {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.card__text {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.lots__look-more-link {
+    width: 192px;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    /* надо посмотреть ссылку  - посмотреть больше */
+/* неопнятно почему нельзя оставыить только ссылку! и не писать блок div */
+}
+
+/* Секция lots закончилась */
+
+/* начала секции about */
