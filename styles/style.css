@@ -30,6 +30,7 @@
 }
 
 .contact {
+    color: #000;
     width: 240px;
     height: auto;
     line-height: 24.3px;
@@ -68,8 +69,6 @@
 }
 
 .cover__title-item {
-
-    color: #FFF;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -90,7 +89,8 @@
     display: flex;
     gap: 78px;
     box-sizing: border-box; 
-    padding-top: 103px;
+    padding-bottom: 50px;
+    padding-right: 50px;
     justify-content: end;
     text-align: right;
 }
@@ -98,7 +98,6 @@
 
 .cover__description-text {
     margin: 12px 0;
-    color: #FFF;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -108,9 +107,9 @@
 }
 
 .bet-button {
+    color: #FFF;
     width: 257px;
     height: 52px;
-    color: #FFF;
     background-color: transparent;
     font-size: 22px;
     font-weight: 400;
@@ -131,6 +130,7 @@
 }
 
 .lots__heading {
+    color: #000;
     padding-left: 40px;
     font-size: 40px;
     font-weight: 700;
@@ -175,7 +175,6 @@
 }
 
 .card__title {
-    color: #FFF;
     font-size: 22px;
     font-weight: 700;
     line-height: 120%;
@@ -184,7 +183,6 @@
 }
 
 .card__text {
-    color: #FFF;
     font-size: 20px;
     font-weight: 400;
     line-height: 120%;
