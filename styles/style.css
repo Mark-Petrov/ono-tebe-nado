@@ -123,7 +123,8 @@
     width: 1340px;
     height: 579px;
     box-sizing: border-box;
-    padding: 180px 50px 0 50px;
+    margin: 180px 50px 0 50px;
+    
 }
 
 .lots__heading {
@@ -200,3 +201,62 @@
 
 /* начала секции about */
 
+.about {
+    display: flex;
+    gap: 25px;
+    width: 1340px;
+    height: 487px;
+    box-sizing: border-box;
+    margin: 181px 50px 0px 50px;
+}
+
+.about__column {
+    width: 430px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+   
+}
+
+.about__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 240px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.about__logo-image {
+    width: 148px;
+    height: 114px;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 885px;
+    height: 388px;
+    align-self: flex-end;
+}
+
+.about__title {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.about__text {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* закончилась секция about */
+
+/* началась секция footer */
