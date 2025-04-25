@@ -16,7 +16,6 @@
     list-style: circle;
     padding-top: 43px;
     padding-bottom: 45px;
-
 }
 
 .header__links-list-item_no-bullit {list-style: none;}
@@ -46,7 +45,7 @@
 /* начался блок COVER */
 
 .cover {
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size:100% auto;
     
@@ -107,6 +106,7 @@
 }
 
 .bet-button {
+    font-family: Raleway, sans-serif;
     color: #FFF;
     width: 257px;
     height: 52px;
@@ -123,7 +123,6 @@
 
 .lots {
     width: 1340px;
-    height: 579px;
     box-sizing: border-box;
     margin: 180px 50px 0 50px;
     
@@ -142,36 +141,38 @@
     margin-top: 27px;
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .lots__card-list-item {
     width: 430px;
-    height: 450px;    
+    min-height: 450px;   
 }
 
 .card__content {    
     box-sizing: border-box;
     padding: 50px 40px 50px 40px;
     width: 430px;
-    height: 450px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .card_type_film {
-    background-image: url(/images/card-lot-01.jpg);
-    background-size:100% auto;
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-    background-image: url(/images/card-lot-02.jpg);
-    background-size:100% auto;
+    background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-    background-image: url(/images/card-lot-03.jpg);
-    background-size:100% auto;
+    background-image: url(../images/card-lot-03.jpg);
+}
+
+.card_type_film .card_type_book .card_type_picture{
+    background-size: cover;
 }
 
 .card__title {
@@ -206,7 +207,6 @@
     display: flex;
     gap: 25px;
     width: 1340px;
-    height: 487px;
     box-sizing: border-box;
     margin: 181px 50px 0px 50px;
 }
@@ -240,7 +240,6 @@
     flex-direction: column;
     gap: 25px;
     width: 885px;
-    height: 388px;
     align-self: flex-end;
 }
 
@@ -266,7 +265,6 @@
     display: flex;
     justify-content: space-between;
     width: 1340px;
-    height: 97px;
     box-sizing: border-box;
     margin: 180px 50px 90px 50px;
 }
@@ -294,7 +292,6 @@
 
 .footer__social-list {
     width: 240px;
-    height: 48px;
     display: flex;
     justify-content: space-between;
 }
